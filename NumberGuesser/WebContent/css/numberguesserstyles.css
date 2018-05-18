@@ -1,0 +1,105 @@
+@CHARSET "ISO-8859-1";
+
+.button, input[type="submit"] {
+    background-color: #1465a9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+    
+}
+
+h1 {
+text-align: center;
+    color: #1465a9;
+}
+
+h3{
+text-align: center;
+color: #1465a9;
+}
+
+.guessText {
+text-decoration: underline;
+font-weight: bold;
+font-size: 1.17em;
+}
+
+fieldset{
+	text-align: center;
+	padding: 6px 42px;
+    border: 1px solid #1465a9;
+    margin-left: .7%;
+    display:block;
+}
+
+.largeFieldset {
+width: 70%;
+display: inline;
+}
+
+.smallFieldset {
+width: 12%;
+display: inline;
+vertical-align: top;
+
+
+
+}
+
+.yesButton {
+	background-color:#4CAF50;
+}
+
+.yesButton:hover {
+background-color: #88aa66;
+}
+
+input[type="submit"]:hover {
+    background-color: #0d4572;
+    color: white;
+    }
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.error{
+	font-size: 14px;
+	color:red;
+}
+
+.centerAlign {
+
+text-align:center;
+}
+
+.leftAlignText {
+display: inline-block;
+text-align:left;
+
+}
+
+.blueText {
+color: #1465a9;
+}
+
+.largeText {
+	font-size: 2em;
+}
+
+.mediumText {
+font-size:1.17em;
+}
+
+.bold {
+font-weight: bold;
+}
